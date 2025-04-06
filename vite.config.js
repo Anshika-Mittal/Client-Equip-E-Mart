@@ -10,4 +10,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    proxy: {
+      '/api': 'https://server-equip-e-mart.onrender.com', // your Render backend
+    },
+  },
 });
