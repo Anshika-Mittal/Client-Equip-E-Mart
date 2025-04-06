@@ -12,7 +12,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      '/api': 'https://server-equip-e-mart.onrender.com', // your Render backend
+      '/': 'https://server-equip-e-mart.onrender.com', // your Render backend
     },
   },
 });
